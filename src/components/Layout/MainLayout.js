@@ -31,12 +31,13 @@ class MainLayout extends React.Component {
 
       this.notificationSystem.addNotification({
         title: <MdImportantDevices />,
-        message: 'Welome to Reduction Admin!',
+        message: 'Bienvenido a KARTUP API Admin!',
         level: 'info',
       });
     }, 1500);
 
-    setTimeout(() => {
+    // To add new notifications
+    /*setTimeout(() => {
       if (!this.notificationSystem) {
         return;
       }
@@ -47,7 +48,7 @@ class MainLayout extends React.Component {
           'Reduction is carefully designed template powered by React and Bootstrap4!',
         level: 'info',
       });
-    }, 2500);
+    }, 2500);*/
   }
 
   // close sidebar when
